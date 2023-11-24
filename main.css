@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Oswald:wght@300;500&family=Poppins:ital,wght@0,100;0,500;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+/*DEFAULTS SECTION*/
+h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+.contents {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.intro {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.links {
+    padding-top: 20px;
+    font-size: 35px;
+    justify-content: space-between;
+}
+
+.anim::before{
+    color: red;
+    content: "Web Developer";
+    animation: animate 5s infinite;
+}
+
+@keyframes animate {
+    0% { content: "Web Developer"}
+    50% { content: "Mobile App Developer" }
+    75% { content: "Tambay"}
+}
+
