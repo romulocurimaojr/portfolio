@@ -13,8 +13,12 @@ h1 {
     text-transform: uppercase;
 }
 
-
-
+.firstbg {
+    color: white;
+    background-color: #E8BA9B;
+    background-image: url('https://andreivictor.ro/codepen/scroll-bg-animation-pinterest/bg_pasta_grid-3f880df3.jpg');
+    background-size: cover;
+}
 
 .contents {
     text-align: center;
@@ -34,7 +38,7 @@ h1 {
 }
 
 .anim::before{
-    color: red;
+    color: white;
     content: "Web Developer";
     animation: animate 5s infinite;
 }
